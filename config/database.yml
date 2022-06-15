@@ -1,0 +1,11 @@
+development:
+  adapter: mysql2
+  host: localhost
+  username: root
+  password:
+  database: training-rails
+  pool: 10 # not default (default is 5)
+  timeout: 20000 # not default (default is 5000 = 5sec)
+  reconnect: true # not default
+  encoding: utf8mb4
+  collation: utf8mb4_0900_ai_ci
