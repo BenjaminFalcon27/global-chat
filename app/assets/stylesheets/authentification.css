@@ -73,6 +73,7 @@ body {
   overflow: hidden;
   transition: 0.5s;
   margin-top: 40px;
+  margin-left: 25px;
   letter-spacing: 4px;
 }
 
@@ -166,4 +167,18 @@ body {
   100% {
     bottom: 100%;
   }
+}
+
+input[type=submit] {
+  position: absolute;
+  display: inline;
+}
+
+.error-password {
+  display: inline;
+  color: white;
+}
+
+.remember {
+  color: white;
 }

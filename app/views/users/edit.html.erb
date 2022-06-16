@@ -1,6 +1,11 @@
 <h1>Edit User</h1>
- 
-<%= form_for @user do |u| %>
 
+<%= form_for @user do |u| %>
+  <div class="form-group">
+      <label>User name</label>
+      <%= u.text_field :name %>
+      <label>User password</label>
+      <%= u.text_field :password %>
+  </div>
 <% end %>
 
